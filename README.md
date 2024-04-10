@@ -1,3 +1,10 @@
+# Live With Sass
+An Eleventy experiment, using the YATAS starter:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zapscribbles/live-with-sass)
+
+---
+
 # YATAS - Yet Another Tailwind Apline Starter
 
 <a href="https://yatas.netlify.app/" target="_blank">
@@ -5,10 +12,6 @@
 </a>
 
 Minimal 11ty starter project that build css with tailwindcss cli and [esbuild](https://esbuild.github.io/) for javascript.
-
-## [Demo](https://yatas.netlify.app/)
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhaefliger/yatas)
 
 ## Stack
 
