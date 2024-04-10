@@ -1,7 +1,5 @@
 # Live With Sass
-An Eleventy experiment, using the YATAS starter:
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zapscribbles/live-with-sass)
+An Eleventy experiment, using the YATAS starter
 
 ---
 
