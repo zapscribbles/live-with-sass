@@ -1,0 +1,25 @@
+---
+layout: layouts/header.html
+---
+<main class="container">
+    <nav id="nav">
+        <ul class="links">
+            {%- for navlink in collections.navlinks -%}
+            <li class="{% if page.url == navlink.url %}active{% endif %}">
+                <a href="{{ navlink.url }}" title="{{ page.navlink.title }}" target="_self">{{ navlink.data.title }}</a>
+            </li>
+            {%- endfor -%}
+        </ul>
+        <ul class="icons">
+            <li>
+                <a href="https://www.instagram.com/hikerwithsass/"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <div id="main-content" class="container-fluid">
+        {{ content | safe }}
+    </div>
+</main>
+<footer class="container">
+    © Live with Sass LLC 2024
+</footer>

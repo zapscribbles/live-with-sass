@@ -1,0 +1,14 @@
+---
+title: Services
+layout: layouts/nav.njk
+tags: navlinks
+---
+<h1>Services</h1>
+Services generally fall into one of several categories:
+<ul class="link-list">
+{%- for service in collections.services -%}
+    <li>
+        <a href="{{ service.url }}" title="{{ service.data.title }}" target="_self">{{ service.data.title }}</a>
+    </li>
+{%- endfor -%}
+</ul>
