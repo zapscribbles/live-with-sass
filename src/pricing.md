@@ -2,6 +2,7 @@
 title: Pricing
 layout: layouts/nav.njk
 tags: navlinks
+date: 2024-01-03
 ---
 # Pricing
 I can provide services at any time in you or your loved one's living or dying process.

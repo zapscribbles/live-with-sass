@@ -2,6 +2,7 @@
 title: About
 layout: layouts/nav.njk
 tags: navlinks
+date: 2024-01-04
 ---
 # About
 

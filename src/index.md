@@ -2,6 +2,7 @@
 title: Home
 layout: layouts/nav.njk
 tags: navlinks
+date: 2024-01-01
 ---
 # Welcome
 
